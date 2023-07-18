@@ -1,9 +1,9 @@
 let input1 = "happy"
 let input2 = "happy"
 
-function checkAnagrams(w0ord1, w0ord2){
-    let word1 = w0ord1.split("")
-    let word2 = w0ord2.split("")
+function checkAnagrams(string1, string2){
+    let word1 = string1.split("")
+    let word2 = string2.split("")
 
     if(word1.length !== word2.length) return False
 
