@@ -1,5 +1,20 @@
-function difference(num1, num2) {
-    return Math.abs(num1 - num2);
+
+function subtract(a, b){
+  return a - b
+}
+
+function absolute(num) {
+  if(num > 0){
+    return num
+  } else {
+    return -1 * num
   }
-  console.log(difference(12, 4))
-  console.log(difference(4, 18))
+}
+
+function absoluteDiff(a, b) {
+  var diff = subtract(a, b)
+  var abs = absolute(diff)
+  return abs
+}
+
+console.log(absoluteDiff(3, 5))
