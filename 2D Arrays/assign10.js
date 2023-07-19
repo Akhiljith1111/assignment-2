@@ -4,7 +4,7 @@ const inputArray = [
     [7, 8, 9, 5, 6]
   ];
   const numRows = inputArray.length;
-  const midColIndex = Math.floor(inputArray[0].length / 2);
+  const midCol = Math.floor(inputArray[0].length / 2);
   for (let i = 0; i < numRows; i++) {
-    console.log(inputArray[i][midColIndex]);
+    console.log(inputArray[i][midCol]);
   }
