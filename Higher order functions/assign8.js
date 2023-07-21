@@ -1,5 +1,5 @@
 const arrayOfStrings = ["edstem", "tech"];
 
-const snakeCaseString = arrayOfStrings.reduce((acc, str) => acc + '_' + str);
+const snakeCaseString = arrayOfStrings.reduce((acc, e) => acc + '_' + e);
 
 console.log(snakeCaseString);
